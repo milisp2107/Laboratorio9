@@ -1,82 +1,21 @@
-body {
-    background-color: antiquewhite;
-    margin: 20px;
-  }
-  header {
-    display: flex;
-    height: 70px;
-    background-color: fdfd96;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
-  .logo{
-    display: flex
-  }
-  
-  .logo img{ 
-    height: 
-    
-  a { color: black; 
-  }
-  nav a {
-    font-weight:600px;
-    padding-right:15px;
-  }
-  nav a:hover{
-    color: white;
-  }
-  media a(max-witdh: 700){
-    header{ flex-direction: column;
-    }
-    nav {
-      padding: 10px;
-    }
-    main {
-      padding: 20px;
-      display: flex;
-      color: black rgb(23, 17,5);
-      justify-content: space-around;
-      flex-wrap: wrap;
-      gap: 20px;
-      
-    }
-    .contenedor-info h3{
-      padding:20px;
-      text-align: center;
-      color: black;
-      font-size: 25px;
-      font-weight: bold;
-    }
-    .contenedor-info p{
-      text-align: justify;
-      font-size: 18px;
-    }
-    
-    
-    .contenedor{
-      background-color: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px #333;
-      text-align: center;
-    }
-    .contenedor img{
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-    .contenedor h2{
-      font-size: 24px;
-      color: aqua;
-    }
-    footer{
-    background-color: #fdfd96;
-    padding: 30px;
-    color: black;
-    text-align: center;
-    margin-top: 20px;
-    }
-    footer p{
-    font-size: 18px;
-    }
+header {
+  background-color: antiquewhite; padding: 20px; text-align: center; color: black;
+}
+nav a{
+color: black; text-decoration: none; margin: 0 15PX; font-weight: bold;
+}
+nav a:hover{
+  color: aqua;
+}
+.contenedor{
+  width: 90%; margin: 20px auto; padding: 15px; background-color: #f4f4f4; border-radius: 8px; box-shadow: 0 0 10px rgb(red, green, blue);
+}
+.contenedor h2{
+color: blueviolet;
+}
+.contenedor p{
+color: #555; font-size: 16px; line-height: 1.6;
+}
+footer{
+  background-color: #333; columns: white; text-align: center; padding: 10px 0; margin-top: 20px;
+}
